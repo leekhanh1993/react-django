@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "D:\\Django\\myprojects\\ReactDjango\\backend\\env\\Scripts",
+    "editor.formatOnSave": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.pylintPath": "D:\\Django\\myprojects\\ReactDjango\\backend\\env\\Scripts\\pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true
+}
