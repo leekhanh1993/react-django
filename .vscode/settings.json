@@ -7,5 +7,6 @@
         "--load-plugins",
         "pylint_django"
     ],
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false
 }
