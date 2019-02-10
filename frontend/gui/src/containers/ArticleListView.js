@@ -1,6 +1,7 @@
 import React from 'react'
 import Article from "./../components/Article"
 import axios from 'axios'
+import CustomForm from '../components/CustomForm';
 
 const listData = [];
 for (let i = 0; i < 23; i++) {
@@ -28,7 +29,16 @@ export default class ArticleList extends React.Component {
     }
     render() {
         return (
-            <Article data={this.state.articles} />
+            <div>
+                <Article data={this.state.articles} />
+                <br />
+                <h2>Create an article</h2>
+                <CustomForm
+                    requestType={'post'}
+                    articleID={null}
+                    btnText="Create"
+                />
+            </div>
         )
     }
 }
